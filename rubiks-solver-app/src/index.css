@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Manrope:wght@400;600&family=JetBrains+Mono:wght@500&display=swap');
 
 :root {
-  --bg-top: #f4ede4;
-  --bg-bottom: #d9e4e7;
-  --ink: #101c20;
-  --ink-soft: #33474d;
-  --muted: #4f6268;
-  --accent: #d9551b;
+  --bg-top: #06141b;
+  --bg-mid: #0c1f2a;
+  --bg-bottom: #09161e;
+  --ink: #e8f5fa;
+  --ink-soft: #bdd3da;
+  --muted: #9ab4be;
+  --accent: #ffc46f;
   --font-body: 'Manrope', sans-serif;
   --font-display: 'Chakra Petch', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -27,9 +28,10 @@ body {
   color: var(--ink);
   font-family: var(--font-body);
   background:
-    radial-gradient(circle at 12% 22%, rgba(255, 125, 47, 0.28), transparent 44%),
-    radial-gradient(circle at 82% 10%, rgba(26, 112, 149, 0.22), transparent 40%),
-    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+    radial-gradient(circle at 12% 20%, rgba(255, 145, 61, 0.2), transparent 36%),
+    radial-gradient(circle at 82% 12%, rgba(34, 140, 174, 0.24), transparent 40%),
+    radial-gradient(circle at 70% 88%, rgba(30, 172, 143, 0.14), transparent 30%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-mid) 54%, var(--bg-bottom));
   background-attachment: fixed;
 }
 
